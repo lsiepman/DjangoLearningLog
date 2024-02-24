@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    # third party apps
+    "bootstrap3",
     # my apps
     "learning_logs",
     "users",
@@ -128,3 +130,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # My settings
 LOGIN_URL = "/users/login/"
+
+# Settings for django-bootstrap3
+BOOTSTRAP3 = {"include_query": True}
