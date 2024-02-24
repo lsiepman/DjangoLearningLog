@@ -8,3 +8,11 @@ When a user has been logged in, (s)he can write posts, read posts and alter post
 
 ## Development
 This project has been built in Django.
+
+### Desired additions
+- [ ] Only show entry ellipses on entries longer than 50 characters
+- [ ] Nice homepage, with bootstrap
+- [ ] Generic layout for the pages, which differs from the django default
+- [ ] Email verification
+- [ ] Create function to check topic owner
+- [ ] Implement user/owner check in new_entry
